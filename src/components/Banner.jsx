@@ -8,7 +8,7 @@ export const Banner = () => {
     const [isDeleting, setIsDeleting] = useState(false);
     const toRotate = [ "Web Developer", "Full Stack Developer", "Software Engineer"];
     const [text, setText] = useState("");
-    const [delta, setDelta] = useState(150 - Math.random() * 50);
+    const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 1000;
 
     useEffect(() => {
@@ -27,7 +27,7 @@ export const Banner = () => {
         setText(updatedText)
 
         if (isDeleting) {
-            setDelta(prevDelta => prevDelta /1.5)
+            setDelta(prevDelta => prevDelta /2)
         }
 
         if (!isDeleting && updatedText === fullText) {
@@ -55,6 +55,18 @@ export const Banner = () => {
                     </Col>
                 </Row>
             </Container>
+            <div>
+                <span className="stars"></span>
+                <span className="stars"></span>
+                <span className="stars"></span>
+                <span className="stars"></span>
+                <span className="stars"></span>
+                <span className="stars"></span>
+                <span className="stars"></span>
+                <span className="stars"></span>
+                <span className="stars"></span>
+                <span className="stars"></span>
+            </div>
         </section>
     )
 }
