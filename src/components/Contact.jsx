@@ -30,8 +30,8 @@ export const Contact = () => {
                     </Col>
                     <Col md={6}>
                         <h2>Get In Touch</h2>
-                        <form name="contact" data-netlify="true" method="POST">
-                            <input type="hidden" name="form-name" value="contact" />
+                        <form name="contactForm" method="POST" data-netlify="true">
+                            <input type="hidden" name="form-name" value="contactForm" />
                             <Row>
                                 <Col sm={6} className="px-1">
                                     <input type="text" name="firstName" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate("firstName", e.target.value)} />
