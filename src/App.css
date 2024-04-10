@@ -279,6 +279,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin-left: 25px;
 }
 
+.vvd, .vvd:visited, .vvd:hover, .vvd:active, .vvd:focus {
+    text-decoration: none;
+    outline: none;
+}
+
 .banner img {
     animation: updown 3s linear infinite;
 }
