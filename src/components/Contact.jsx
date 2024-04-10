@@ -25,8 +25,6 @@ export const Contact = () => {
         });
     };
 
-
-
 const sendEmail = (e) => {
     e.preventDefault();
     setLoading(true);
@@ -62,22 +60,22 @@ const sendEmail = (e) => {
                     </Col>
                     <Col md={6}>
                         <h2>Get In Touch</h2>
-                        <form ref={form} onSubmit={sendEmail}>
-                            {/* <input type="hidden" name="form-name" value="contact" /> */}
+                        <form name="contact v1" method="post" data-netlify="true" ref={form} onSubmit={sendEmail}>
+                            <input type="hidden" name="form-name" value="contact v1" />
                             <Row>
-                                <Col sm={6} className="px-1">
+                                <Col size={12} sm={6} className="px-1">
                                     <input type="text" name="firstName" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate("firstName", e.target.value)} />
                                 </Col>
-                                <Col sm={6} className="px-1">
+                                <Col size={12} sm={6} className="px-1">
                                     <input type="text" name="lastName" value={formDetails.lastName} placeholder="Last Name" onChange={(e) => onFormUpdate("lastName", e.target.value)} />
                                 </Col>
-                                <Col sm={6} className="px-1">
+                                <Col size={12} sm={6} className="px-1">
                                     <input type="email" name="email" value={formDetails.email} placeholder="Email Address" onChange={(e) => onFormUpdate("email", e.target.value)} />
                                 </Col>
-                                <Col sm={6} className="px-1">
+                                <Col size={12} sm={6} className="px-1">
                                     <input type="text" name="phone" value={formDetails.phone} placeholder="Phone Number" onChange={(e) => onFormUpdate("phone", e.target.value)} />
                                 </Col>
-                                <Col>
+                                <Col size={12} className="px-1">
                                     <textarea rows="6" name="message" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate("message", e.target.value)} />
                                     <button type="submit" disabled={loading}><span>{loading ? "Sending" : buttonText}</span></button>
                                     {message && <p>{message}</p>}
