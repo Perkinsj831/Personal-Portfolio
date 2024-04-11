@@ -9,7 +9,7 @@ export const Banner = () => {
     const [isDeleting, setIsDeleting] = useState(false);
     const toRotate = [ "Web Developer", "Full Stack Developer", "Software Engineer"];
     const [text, setText] = useState("");
-    const [delta, setDelta] = useState(300 - Math.random() * 100);
+    const [delta, setDelta] = useState(300);
     const period = 1000;
 
     useEffect(() => {
@@ -37,7 +37,7 @@ export const Banner = () => {
         } else if (isDeleting && updatedText === "") {
             setIsDeleting(false);
             setLoopNum(loopNum + 1);
-            setDelta(500)
+            setDelta(300)
         };
     };
 

@@ -3,7 +3,7 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import { HashLink } from 'react-router-hash-link';
 import logo from "../assets/img/logo.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.jpg";
+import navIcon2 from "../assets/img/nav-icon2.png";
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState("home");
