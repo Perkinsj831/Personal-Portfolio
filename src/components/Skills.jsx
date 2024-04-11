@@ -31,7 +31,7 @@ export const Skills = () => {
                     <Col>
                         <div className="skill-bx">
                             <h2>Skills</h2>
-                            <p>Lorem ipsum dolor sit amet. Et consequatur nisi qui sunt expedita ut doloremque officia quo nostrum cupiditate. Qui atque eveniet a assumenda deleniti et adipisci velit et delectus quia rem sapiente dolorem et quisquam internos eos aspernatur deserunt.</p>
+                            <p>As an emerging web developer, I am building a solid skill set in JavaScript, React.js, and Node.js, supported by foundational knowledge in HTML5 and CSS. I am also learning SQL and Git to enhance my data management and version control capabilities. My approach to web development is characterized by a keen attention to detail and a commitment to solving problems effectively, while I continuously strive to improve my technical skills and communication.</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
                                     <img src={skillCheckmark} alt="Image" />
