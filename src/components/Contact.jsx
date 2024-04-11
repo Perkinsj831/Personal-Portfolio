@@ -31,8 +31,8 @@ const sendEmail = (e) => {
     setButtonText("Sending...");
 
     emailjs
-      .sendForm('service_5tmb3u8', 'template_xq7fnm6', form.current, {
-        publicKey: 'fAAF9zMm_vaSMJvgK',
+      .sendForm("service_2kq6rpn", "template_osjqvri", form.current, {
+        publicKey: "rRzD-oxFU98RWARGd",
       })
       .then(() => {
         setMessage("Your message has been sent successfully");
