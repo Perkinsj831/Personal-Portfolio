@@ -1,5 +1,7 @@
 import { Container, Tab, Col, Row, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
+import { Resume } from "./Resume";
+import { AboutMe } from "./AboutMe";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import projImg1 from "../assets/img/cbay-pic.png";
 import projImg2 from "../assets/img/puppy-bowl.png";
@@ -61,8 +63,16 @@ export const Projects = () => {
                                     }
                                 </Row>
                             </Tab.Pane>
-                            <Tab.Pane eventKey="second">Loren Ipsum</Tab.Pane>
-                            <Tab.Pane eventKey="third">Loren Ipsum</Tab.Pane>
+                            <Tab.Pane eventKey="second">
+                                <Row>
+                                    <AboutMe />
+                                </Row>
+                            </Tab.Pane>
+                            <Tab.Pane eventKey="third">
+                                    <Row>
+                                        <Resume />
+                                    </Row>
+                            </Tab.Pane>
                         </Tab.Content>
                         </Tab.Container>
                     </Col>
