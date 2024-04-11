@@ -31,9 +31,7 @@ const sendEmail = (e) => {
     setButtonText("Sending...");
 
     emailjs
-      .sendForm("service_2kq6rpn", "template_osjqvri", form.current, {
-        publicKey: "rRzD-oxFU98RWARGd",
-      })
+      .sendForm(import.meta.env.VITE_YOUR_SERVICE_ID, import.meta.env.VITE_YOUR_TEMPLATE_ID, form.current, import.meta.env.VITE_YOUR_PUBLIC_KEY)
       .then(() => {
         setMessage("Your message has been sent successfully");
         setLoading(false);
@@ -47,7 +45,6 @@ const sendEmail = (e) => {
         setMessage("Failed to send the message, please try again");
         setLoading(false)
         setButtonText("Send");
-        console.log('FAILED...', error.text);
     });
 };
 
@@ -70,10 +67,10 @@ const sendEmail = (e) => {
                                     <input type="text" name="lastName" value={formDetails.lastName} placeholder="Last Name" onChange={(e) => onFormUpdate("lastName", e.target.value)} />
                                 </Col>
                                 <Col size={12} sm={6} className="px-1">
-                                    <input type="email" name="email" value={formDetails.email} placeholder="Email Address" onChange={(e) => onFormUpdate("email", e.target.value)} />
+                                    <input type="email" name="email" value={formDetails.email} placeholder="Email Address" autoComplete="email" onChange={(e) => onFormUpdate("email", e.target.value)} />
                                 </Col>
                                 <Col size={12} sm={6} className="px-1">
-                                    <input type="text" name="phone" value={formDetails.phone} placeholder="Phone Number" onChange={(e) => onFormUpdate("phone", e.target.value)} />
+                                    <input type="text" name="phone" value={formDetails.phone} placeholder="Phone Number" autoComplete="tel" onChange={(e) => onFormUpdate("phone", e.target.value)} />
                                 </Col>
                                 <Col size={12} className="px-1">
                                     <textarea rows="6" name="message" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate("message", e.target.value)} />

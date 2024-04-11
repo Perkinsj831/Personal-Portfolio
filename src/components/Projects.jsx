@@ -13,23 +13,27 @@ export const Projects = () => {
     const projects = [
         {
             title: "Capstone",
-            description: "Design & Development",
+            description: "A comprehensive e-commerce platform for vinyl records. Featuring advanced search, secure user authentication, and admin management.",
             imgUrl: projImg1,
+            link: "https://github.com/Perkinsj831/cbay"
         },
         {
             title: "Puppy Bowl",
-            description: "Design & Development",
+            description: "This web application showcases a puppy bowl event, allowing users to view, add, or delete player profiles, and search for specific participants, leveraging React for a seamless user interface.",
             imgUrl: projImg2,
+            link: "https://ppy-bowl.netlify.app"
         },
         {
             title: "Book Buddy",
-            description: "Design & Development",
+            description: "This web application is a React-based library management system where users can browse, check out, and return books, featuring secure login functionality and intuitive navigation through a clean, user-friendly interface.",
             imgUrl: projImg3,
+            link: "https://library-book-buddy.netlify.app"
         },
         {
             title: "My First Website",
-            description: "Design & Development",
+            description: "This project modernizes a website with CSS grids and flex, introduces a functional contact form that leads to a success message upon submission, and employs JavaScript for dynamic user interactions.",
             imgUrl: projImg4,
+            link: "https://first-website-john-perkins.netlify.app"
         },
     ]
     return (
@@ -38,7 +42,7 @@ export const Projects = () => {
                 <Row>
                     <Col size={12}>
                         <h2>Projects</h2>
-                        <p>Lorem ipsum dolor sit amet. Qui nihil incidunt aut dignissimos facilis sit officia natus. Eum quod autem id voluptatem aliquam quo officia dolorem quo labore eaque?</p>
+                        <p>Explore my portfolio below, featuring key projects from my journey as a developer. Each project showcases my skills in web and software development, demonstrating my approach to problem-solving and design. For collaborations or inquiries, don’t hesitate to reach out.</p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                             <Nav.Item>
@@ -80,5 +84,5 @@ export const Projects = () => {
             </Container>
             <img className="background-image-right" src={colorSharp2} />
         </section>
-    )
-}
+    );
+};

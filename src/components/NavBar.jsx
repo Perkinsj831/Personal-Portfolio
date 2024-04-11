@@ -21,11 +21,11 @@ export const NavBar = () => {
         window.addEventListener("scroll", onScroll);
 
         return () => window.removeEventListener("scroll", onScroll);
-    }, [])
+    }, []);
 
     const onUpdateActiveLink = (value) => {
         setActiveLink(value);
-    }
+    };
 
     return (
         <Navbar expand="lg" className={scrolled ? "scrolled": ""}>

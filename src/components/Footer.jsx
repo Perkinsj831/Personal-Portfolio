@@ -23,5 +23,5 @@ export const Footer = () => {
                 </Row>
             </Container>
         </footer>
-    )
-}
+    );
+};

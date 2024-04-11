@@ -3,10 +3,10 @@ import profileImg from "../assets/img/profileImg.png";
 export const AboutMe = () => {
     return (
         <div className="about-me" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
-            <img src={profileImg} alt="John Perkins" style={{ maxWidth: '50%', height: 'auto', display: "flex", justifyContent: "center"}} />
+            <img src={profileImg} alt="John Perkins" style={{ maxWidth: '30%', height: 'auto', display: "flex", justifyContent: "center", marginBottom: '20px'}} />
 
             <h2>Hi there! I'm John Perkins,</h2>
-            <p>and I'm a dedicated and results-driven web developer with a special focus on frontend development. My professional journey is characterized by a deep commitment to not only mastering the technical aspects of development with JavaScript, React, and Node.js but also applying these skills to create impactful, user-centered digital solutions.</p>
+            <p>I'm a dedicated and results-driven web developer with a special focus on frontend development. My professional journey is characterized by a deep commitment to not only mastering the technical aspects of development with JavaScript, React, and Node.js but also applying these skills to create impactful, user-centered digital solutions.</p>
 
             <p>Throughout my career, I've had the privilege of leading and contributing to projects that push the envelope in web development. From orchestrating a comprehensive e-commerce platform that simplifies the online shopping experience to crafting my personal portfolio website showcasing my projects and technical skills, I've consistently leveraged technology to solve problems and enhance user satisfaction. My work at McMaster-Carr as a Distribution Generalist taught me the value of precision and efficiency, principles I apply in my coding projects. As an Assistant General Manager at PharmaCann, I spearheaded the launch of an online ordering system, significantly improving customer access and operational efficiency—a testament to my ability to blend technical acumen with strategic thinking.</p>
 
