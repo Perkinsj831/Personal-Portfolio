@@ -294,9 +294,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     vertical-align: top; 
 }
 
-.wrap::before {
-    content: 'Full Stack Developer';
-    visibility: hidden;
+@media (max-width: 768px) {
+    .wrap {
+        min-width: 180px;
+    }
 }
 
 .stars {
