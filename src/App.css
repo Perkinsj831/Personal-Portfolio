@@ -220,14 +220,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner h1 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
     font-size: 65px;
     font-weight: 700;
     letter-spacing: 0.8px;
     line-height: 1;
     margin-bottom: 20px;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .banner h1 {
+        font-size: 36px;  /* Smaller font size for mobile screens */
+        /* Adjust letter-spacing and line-height if necessary */
+    }
 }
 
 .banner p {
@@ -294,12 +299,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     min-width: 250px;
     height: auto;
     vertical-align: top; 
-    white-space: nowrap;
 }
 
 @media (max-width: 768px) {
     .wrap {
-        min-width: 180px;
+        min-width: 120px; /* Adjusted for smaller screens */
     }
 }
 
