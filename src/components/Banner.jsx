@@ -48,7 +48,7 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{`Hi! I'm John and I'm a `}<span className="wrap">{text}</span></h1>
-                        <p>Welcome. Im John Perkins, a Web Developer with a keen interest in front-end and full-stack technologies. My portfolio highlights a range of projects, demonstrating my skills with modern development tools and practices.</p>
+                        <p>Welcome. I'm John Perkins, a Web Developer with a keen interest in front-end and full-stack technologies. My portfolio highlights a range of projects, demonstrating my skills with modern development tools and practices.</p>
                         <p>Take a look at my work, and if you're interested in discussing potential projects or just want to chat about technology, feel free to reach out.</p>
                         <HashLink to="#connect" className="vvd">
                         <button>Let's Connect <ArrowRightCircle size={25}/></button>

@@ -287,6 +287,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     border-right: 0.08em solid #666;
 }
 
+.wrap {
+    display: inline-block;
+    min-width: 250px;
+    height: auto;
+    vertical-align: top; 
+}
+
 .stars {
     position: absolute;
     top: 50%;
