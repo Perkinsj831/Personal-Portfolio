@@ -12,7 +12,7 @@ export const Projects = () => {
 
     const projects = [
         {
-            title: "Capstone",
+            title: "E-Commerce Site",
             description: "A comprehensive e-commerce platform for vinyl records. Featuring advanced search, secure user authentication, and admin management.",
             imgUrl: projImg1,
             link: "https://github.com/Perkinsj831/cbay"

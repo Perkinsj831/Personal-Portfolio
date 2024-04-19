@@ -619,6 +619,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     letter-spacing: 0.8px;
 }
 
+.resume-list {
+    padding-top: 10px;
+    padding-left: 20px; 
+    /* list-style-position: inside; */
+}
+
 .background-image-right {
     top: 20%;
     position: absolute;
