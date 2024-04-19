@@ -7,7 +7,7 @@ export const Resume = () => {
 
             <h2 style={{ textDecoration: 'underline'}}>Technical Skills</h2>
             <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px' }}>
-                <ul style={{ textAlign: 'left' }}>
+                <ul style={{ textAlign: 'left', color: `#B8B8B8` }}>
                     <li>Languages: JavaScript, HTML5, CSS</li>
                     <li>Frameworks/Libraries: React, Redux, Node.js</li>
                     <li>Tools & Platforms: Git, SQL</li>
@@ -30,7 +30,7 @@ export const Resume = () => {
             <h2 style={{ textDecoration: 'underline'}}>Experience</h2>
             <h3>Distribution Generalist | McMaster-Carr | July/2022 - January/2024</h3>
             <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px',  }}>
-                <ul style={{ textAlign: 'left' }}>
+                <ul style={{ textAlign: 'left', color: `#B8B8B8` }}>
                     <li>Efficiently managed product storage within the warehouse, ensuring timely put-away of items in adherence to strict schedules.</li>
                     <li>Demonstrated a high degree of autonomy in executing job duties, requiring minimal supervision and no direct orders from management.</li>
                     <li>Tracked and located long-standing inventory items, coordinating with management to update put-away status and optimize warehouse space utilization.</li>
@@ -38,7 +38,7 @@ export const Resume = () => {
             </div>
             <h3>Assistant General Manager | PharmaCann | April/2018 - July/2022</h3>
             <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px',  }}>
-                <ul style={{ textAlign: 'left'}}>
+                <ul style={{ textAlign: 'left', color: `#B8B8B8`}}>
                     <li>Spearheaded the launch of an online ordering system, enhancing customer access and streamlining sales processes.</li>
                     <li>Played a pivotal role in the opening of four new locations, contributing to significant growth and market expansion.</li>
                     <li>Managed a team of over fifty employees, ensuring optimal staffing levels and operational efficiency.</li>
@@ -46,7 +46,7 @@ export const Resume = () => {
             </div>
             <h3>Store Manager | American Mattress | April/2015 - April/2018</h3>
             <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px',  }}>
-                <ul style={{ textAlign: 'left'}}>
+                <ul style={{ textAlign: 'left', color: `#B8B8B8`}}>
                     <li>Led sales and operational strategies across multiple store locations, consistently surpassing sales targets.</li>
                     <li>Trained and mentored new employees, fostering a culture of excellence and continuous improvement.</li>
                 </ul>
