@@ -7,7 +7,7 @@ import projImg1 from "../assets/img/cbay-pic.png";
 import projImg2 from "../assets/img/puppy-bowl.png";
 import projImg3 from "../assets/img/book-buddy.png";
 import projImg4 from "../assets/img/first-website.png";
-import projImg4 from "../assets/img/hangman.png";
+import projImg5 from "../assets/img/hangman.png";
 
 export const Projects = () => {
 
@@ -39,7 +39,7 @@ export const Projects = () => {
         {
             title: "Hangman Game",
             description: "This web-based Hangman game where playerd try to guess the correct word based on hints, with each incorrect guess adding a part to the hangman image. The game features a responisve layot and interactive keyboard.",
-            imgUrl: projImg4,
+            imgUrl: projImg5,
             link: "https://jdhangman.netlify.app"
         }
     ]
