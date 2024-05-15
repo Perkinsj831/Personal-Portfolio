@@ -38,7 +38,7 @@ export const Projects = () => {
         },
         {
             title: "Hangman Game",
-            description: "This web-based Hangman game where playerd try to guess the correct word based on hints, with each incorrect guess adding a part to the hangman image. The game features a responisve layot and interactive keyboard.",
+            description: "This web-based Hangman game where players try to guess the correct word based on hints, with each incorrect guess adding a part to the hangman image. The game features a responisve layout and interactive keyboard.",
             imgUrl: projImg5,
             link: "https://jdhangman.netlify.app"
         }
