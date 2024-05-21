@@ -14,28 +14,10 @@ export const Projects = () => {
 
     const projects = [
         {
-            title: "E-Commerce Site",
-            description: "A comprehensive e-commerce platform for vinyl records. Featuring advanced search, secure user authentication, and admin management.",
-            imgUrl: projImg1,
-            link: "https://github.com/Perkinsj831/cbay"
-        },
-        {
-            title: "Puppy Bowl",
-            description: "This web application showcases a puppy bowl event, allowing users to view, add, or delete player profiles, and search for specific participants, leveraging React for a seamless user interface.",
-            imgUrl: projImg2,
-            link: "https://ppy-bowl.netlify.app"
-        },
-        {
-            title: "Book Buddy",
-            description: "This web application is a React-based library management system where users can browse, check out, and return books, featuring secure login functionality and intuitive navigation through a clean, user-friendly interface.",
-            imgUrl: projImg3,
-            link: "https://library-book-buddy.netlify.app"
-        },
-        {
-            title: "My First Website",
-            description: "This project modernizes a website with CSS grids and flex, introduces a functional contact form that leads to a success message upon submission, and employs JavaScript for dynamic user interactions.",
-            imgUrl: projImg4,
-            link: "https://first-website-john-perkins.netlify.app"
+            title: "Snake Game",
+            description: "This web app is a modern Snake game with adjustable difficulty levels and real-time score updates. Players use keyboard or on-screen controls to navigate the snake and aim for high scores.",
+            imgUrl: projImg6,
+            link: "https://jdsnakegame.netlify.app/"
         },
         {
             title: "Hangman Game",
@@ -44,10 +26,28 @@ export const Projects = () => {
             link: "https://jdhangman.netlify.app"
         },
         {
-            title: "Snake Game",
-            description: "This web app is a modern Snake game with adjustable difficulty levels and real-time score updates. Players use keyboard or on-screen controls to navigate the snake and aim for high scores.",
-            imgUrl: projImg6,
-            link: "https://jdsnakegame.netlify.app/"
+            title: "E-Commerce Site",
+            description: "A comprehensive e-commerce platform for vinyl records. Featuring advanced search, secure user authentication, and admin management.",
+            imgUrl: projImg1,
+            link: "https://github.com/Perkinsj831/cbay"
+        },
+        {
+            title: "Book Buddy",
+            description: "This web application is a React-based library management system where users can browse, check out, and return books, featuring secure login functionality and intuitive navigation through a clean, user-friendly interface.",
+            imgUrl: projImg3,
+            link: "https://library-book-buddy.netlify.app"
+        },
+        {
+            title: "Puppy Bowl",
+            description: "This web application showcases a puppy bowl event, allowing users to view, add, or delete player profiles, and search for specific participants, leveraging React for a seamless user interface.",
+            imgUrl: projImg2,
+            link: "https://ppy-bowl.netlify.app"
+        },
+        {
+            title: "My First Website",
+            description: "This project modernizes a website with CSS grids and flex, introduces a functional contact form that leads to a success message upon submission, and employs JavaScript for dynamic user interactions.",
+            imgUrl: projImg4,
+            link: "https://first-website-john-perkins.netlify.app"
         }
     ]
     return (
