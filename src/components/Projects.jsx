@@ -8,6 +8,7 @@ import projImg2 from "../assets/img/puppy-bowl.png";
 import projImg3 from "../assets/img/book-buddy.png";
 import projImg4 from "../assets/img/first-website.png";
 import projImg5 from "../assets/img/hangman.png";
+import projImg6 from "../assets/img/snake.png";
 
 export const Projects = () => {
 
@@ -41,6 +42,12 @@ export const Projects = () => {
             description: "This web-based Hangman game where players try to guess the correct word based on hints, with each incorrect guess adding a part to the hangman image. The game features a responsive layout and interactive keyboard.",
             imgUrl: projImg5,
             link: "https://jdhangman.netlify.app"
+        },
+        {
+            title: "Snake Game",
+            description: "This web app is a modern Snake game with adjustable difficulty levels and real-time score updates. Players use keyboard or on-screen controls to navigate the snake and aim for high scores.",
+            imgUrl: projImg6,
+            link: "https://jdsnakegame.netlify.app/"
         }
     ]
     return (
