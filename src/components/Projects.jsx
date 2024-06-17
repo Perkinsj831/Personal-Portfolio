@@ -9,10 +9,17 @@ import projImg3 from "../assets/img/book-buddy.png";
 import projImg4 from "../assets/img/first-website.png";
 import projImg5 from "../assets/img/hangman.png";
 import projImg6 from "../assets/img/snake.png";
+import projImg7 from "../assets/img/recipeace.png";
 
 export const Projects = () => {
 
     const projects = [
+        {
+            title: "Recipe Fullstack Website",
+            description: "ReciPeace is a user-friendly web app designed to help users discover, save, and share delicious recipes effortlessly. With features like advanced search filters, user ratings, and interactive comments, ReciPeace makes it easy to find and engage with a diverse collection of recipes tailored to your preferences.",
+            imgUrl: projImg7,
+            link: "https://reci-peace.netlify.app/"
+        },
         {
             title: "Snake Game",
             description: "This web app is a modern Snake game with adjustable difficulty levels and real-time score updates. Players use keyboard or on-screen controls to navigate the snake and aim for high scores.",
